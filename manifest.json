@@ -3,7 +3,7 @@
   "name": "Clear Storage one click",
   "description": "Fast clear cookie, localStorage, sessionStorage and cache browser",
   "version": "1.0",
-  "permissions": ["activeTab", "storage", "cookies"],
+  "permissions": ["activeTab", "storage", "cookies", "scripting", "cookies"],
   "background": {
     "service_worker": "background.js"
   },
